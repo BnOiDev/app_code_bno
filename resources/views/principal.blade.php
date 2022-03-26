@@ -27,8 +27,8 @@
             <div id="welcome" class="col-12 col-sm-12 col-md-12 col-xl-12">
                 <div class="col-10" style="text-align: -webkit-center;">
                     <img src="images/avatar.png" alt="hugenerd" width="30" height="30" class="rounded-circle mx-2 my-1">
-                    <span class="d-none d-sm-inline text-black">Bem vindo(a),&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
-                    <b>Almeida Modas</b></span><br>
+                    <span class="d-none d-sm-inline text-black">Bem vindo(a),&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <b>Almeida Modas</b></span><br>
                     <span class="d-none d-sm-inline text-black">Loja: <b>039</b></span>
                 </div>
                 <div class="col-12 col-sm-12 col-md-12 col-xl-12">
@@ -36,69 +36,78 @@
                 </div>
 
                 <ul class="nav nav-pills flex-column mb-sm-auto align-items-center align-items-sm-start" id="menu">
-                <li>
-                    {{-- @if ($auth_admMega != 1) --}}
+                    <li>
+                        {{-- @if ($auth_admMega != 1) --}}
                         <a href="#submenu1" data-bs-toggle="collapse" class="nav-link align-middle ">
                             <img src="icones_slide\shop.svg" style="width:10%">
-                             <span class="ms-1 d-none d-sm-inline fs-6 dropdown-toggle">VENDAS</span> </a>
+                            <span class="ms-1 d-none d-sm-inline fs-6 dropdown-toggle">VENDAS</span> </a>
                         <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#submenu1">
                             <li class="w-100">
-                                <a href="#" class="nav-link pt-0"><span class="d-none d-sm-inline fs-6">Catálogo</span> </a>
+                                <a href="#" class="nav-link pt-0"><span class="d-none d-sm-inline fs-6">Catálogo</span>
+                                </a>
                             </li>
                             <li>
-                                <a href="#" class="nav-link pt-0"> <span class="d-none d-sm-inline fs-6">Pedido Atual</span> </a>
+                                <a href="#" class="nav-link pt-0"> <span class="d-none d-sm-inline fs-6">Pedido
+                                        Atual</span> </a>
                             </li>
                             <li>
-                                <a href="#" class="nav-link pt-0"> <span class="d-none d-sm-inline fs-6">Consulta Pedidos</span> </a>
+                                <a href="#" class="nav-link pt-0"> <span class="d-none d-sm-inline fs-6">Consulta
+                                        Pedidos</span> </a>
                             </li>
                         </ul>
-                    {{-- @endif --}}
-                </li>
-                <li>
-                    {{-- @if ($auth_admMega != 1) --}}
+                        {{-- @endif --}}
+                    </li>
+                    <li>
+                        {{-- @if ($auth_admMega != 1) --}}
                         <a href="#submenu2" data-bs-toggle="collapse" class="nav-link align-middle ">
                             <img src="icones_slide\person.svg" style="width:10%">
                             <span class="ms-1 d-none d-sm-inline fs-6 dropdown-toggle">CADASTROS</span> </a>
                         <ul class="collapse show nav flex-column ms-1" id="submenu2" data-bs-parent="#submenu2">
                             <li class="w-100">
-                                <a href="#" class="nav-link pt-0"> <span class="d-none d-sm-inline fs-6">Produtos</span> </a>
+                                <a href="#" class="nav-link pt-0"> <span
+                                        class="d-none d-sm-inline fs-6">Produtos</span> </a>
                             </li>
                             <li>
-                                <a href="#" class="nav-link pt-0"> <span class="d-none d-sm-inline fs-6">Cliente/Fornecedor</span> </a>
+                                <a href="#" class="nav-link pt-0"> <span
+                                        class="d-none d-sm-inline fs-6">Cliente/Fornecedor</span> </a>
                             </li>
                         </ul>
-                    {{-- @endif --}}
-                </li>
-                <li>
-                    {{-- @if ($auth_admLoja == 1) --}}
+                        {{-- @endif --}}
+                    </li>
+                    <li>
+                        {{-- @if ($auth_admLoja == 1) --}}
                         <a href="#submenu3" data-bs-toggle="collapse" class="nav-link align-middle">
                             <img src="icones_slide\shop.svg" style="width:8%">
                             <span class="ms-1 d-none d-sm-inline fs-6 dropdown-toggle">ÁREA DO LOJISTA</span> </a>
                         <ul class="collapse show nav flex-column ms-1" id="submenu3" data-bs-parent="#submenu3">
                             <li class="w-100">
-                                <a href="#" class="nav-link pt-0"> <span class="d-none d-sm-inline  fs-6">Visão Geral</span> </a>
+                                <a href="#" class="nav-link pt-0"> <span class="d-none d-sm-inline  fs-6">Visão
+                                        Geral</span> </a>
                             </li>
                             <li>
-                                <a href="#" class="nav-link pt-0"> <span class="d-none d-sm-inline fs-6">Configurar Loja</span></a>
+                                <a href="#" class="nav-link pt-0"> <span class="d-none d-sm-inline fs-6">Configurar
+                                        Loja</span></a>
                             </li>
                             <li>
-                                <a href="#" class="nav-link pt-0"> <span class="d-none d-sm-inline fs-6">Usuário</span></a>
+                                <a href="#" class="nav-link pt-0"> <span
+                                        class="d-none d-sm-inline fs-6">Usuário</span></a>
                             </li>
 
                         </ul>
-                    {{-- @endif
+                        {{-- @endif
                     @if ($auth_admMega == 1) --}}
                         <a href="#submenu3" data-bs-toggle="collapse" class="nav-link align-middle">
-                             <img src="icones_slide\shop.svg" style="width:8%">
+                            <img src="icones_slide\shop.svg" style="width:8%">
                             <span class="ms-1 d-none d-sm-inline fs-6 dropdown-toggle">ADMINISTRATIVO</span> </a>
                         <ul class="collapse show nav flex-column ms-1" id="submenu3" data-bs-parent="#submenu3">
                             <li class="w-100">
-                                <a href="#" class="nav-link pt-0"><span class="d-none d-sm-inline  fs-6">Cadastrar Lojas</span></a>
+                                <a href="#" class="nav-link pt-0"><span class="d-none d-sm-inline  fs-6">Cadastrar
+                                        Lojas</span></a>
                             </li>
                         </ul>
-                    {{-- @endif --}}
-                </li>
-            </ul>
+                        {{-- @endif --}}
+                    </li>
+                </ul>
         </ul>
 
         <span href="#" class="nav-link h4 w-100 mb-5">

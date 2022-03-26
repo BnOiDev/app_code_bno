@@ -3,13 +3,12 @@
   padding: 0;
   box-sizing: border-box;
   font-size: small;
-  color: #fff;
 }
 
 body {
   min-height: 100vh;
   background-color: #fff;
-  }
+}
 
 .side-navbar {
   width: 180px;
@@ -36,7 +35,7 @@ body {
 
 /* for main section */
 .active-cont {
-  margin-left: 205px;
+  margin-left: 180px;
 }
 
 #menu-btn {

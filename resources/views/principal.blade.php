@@ -39,7 +39,8 @@
                     <li>
                         {{-- @if ($auth_admMega != 1) --}}
                         <a href="#submenu1" data-bs-toggle="collapse" class="nav-link align-middle ">
-                            <img src="icones_slide\shop.svg" style="width:10%">
+                            <i class="bx bxs-dashboard"></i>
+                            {{-- <img src="icones_slide\shop.svg" style="width:10%"> --}}
                             <span class="ms-1 d-none d-sm-inline fs-6 dropdown-toggle">VENDAS</span> </a>
                         <ul class="collapse show nav flex-column ms-1" id="submenu1" data-bs-parent="#submenu1">
                             <li class="w-100">
@@ -60,7 +61,8 @@
                     <li>
                         {{-- @if ($auth_admMega != 1) --}}
                         <a href="#submenu2" data-bs-toggle="collapse" class="nav-link align-middle ">
-                            <img src="icones_slide\person.svg" style="width:10%">
+                             <i class="bx bxs-dashboard"></i>
+                            {{-- <img src="icones_slide\person.svg" style="width:10%"> --}}
                             <span class="ms-1 d-none d-sm-inline fs-6 dropdown-toggle">CADASTROS</span> </a>
                         <ul class="collapse show nav flex-column ms-1" id="submenu2" data-bs-parent="#submenu2">
                             <li class="w-100">
@@ -77,7 +79,8 @@
                     <li>
                         {{-- @if ($auth_admLoja == 1) --}}
                         <a href="#submenu3" data-bs-toggle="collapse" class="nav-link align-middle">
-                            <img src="icones_slide\shop.svg" style="width:8%">
+                             <i class="bx bxs-dashboard"></i>
+                            {{-- <img src="icones_slide\shop.svg" style="width:8%"> --}}
                             <span class="ms-1 d-none d-sm-inline fs-6 dropdown-toggle">ÁREA DO LOJISTA</span> </a>
                         <ul class="collapse show nav flex-column ms-1" id="submenu3" data-bs-parent="#submenu3">
                             <li class="w-100">
@@ -97,7 +100,8 @@
                         {{-- @endif
                     @if ($auth_admMega == 1) --}}
                         <a href="#submenu3" data-bs-toggle="collapse" class="nav-link align-middle">
-                            <img src="icones_slide\shop.svg" style="width:8%">
+                            <i class="bx bxs-dashboard"></i>
+                            {{-- <img src="icones_slide\shop.svg" style="width:8%"> --}}
                             <span class="ms-1 d-none d-sm-inline fs-6 dropdown-toggle">ADMINISTRATIVO</span> </a>
                         <ul class="collapse show nav flex-column ms-1" id="submenu3" data-bs-parent="#submenu3">
                             <li class="w-100">
